@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/red"
+    android:padding="2pt">
+
+    <LinearLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="2dp"
+            android:padding="3pt"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="11pt" />
+
+        <TextView
+
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2pt"
+            android:background="@color/yellow"
+            android:padding="4pt"
+            android:text="@string/des"
+            android:textColor="@color/black"
+            android:textSize="6pt" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2pt">
+
+
+            <ImageButton
+                android:id="@+id/bu1"
+                android:layout_width="15pt"
+                android:layout_height="15pt"
+                android:layout_margin="2pt"
+
+                android:background="@drawable/deleteic"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/bu2"
+                android:layout_width="15pt"
+                android:layout_height="15pt"
+                android:layout_marginTop="3pt"
+                android:layout_marginLeft="132pt"
+                android:soundEffectsEnabled="true"
+
+                android:background="@drawable/modeic" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
